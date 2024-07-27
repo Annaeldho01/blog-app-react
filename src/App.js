@@ -3,6 +3,7 @@ import './App.css';
 import Register from './components/Register';
 import SignIn from './components/SignIn';
 import CreatePost from './components/CreatePost';
+import ViewAll from './components/ViewAll';
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <Route path='/' element={<SignIn/>}/>
       <Route path='/reg' element={<Register/>}/>
       <Route path='/post' element={<CreatePost/>}/>
+      <Route path='/view' element={<ViewAll/>}/>
         </Routes>
         </BrowserRouter>
   );
