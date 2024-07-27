@@ -77,7 +77,7 @@ const Register = () => {
                             <button onClick={readValue}  className="btn btn-success">Register</button>
                         </div>
                         <div className="col col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-                            <a href="" className="btn btn-primary">Back to login</a>
+                            <a href="/" className="btn btn-primary">Back to login</a>
                         </div>
                     </div>
                 
