@@ -1,5 +1,6 @@
 import axios from 'axios'
 import React, { useState } from 'react'
+import Navbar from './Navbar'
 
 const CreatePost = () => {
   const[token,setToken]=useState(sessionStorage.getItem("token"))
@@ -46,6 +47,8 @@ const readValue=()=>{
 
 
   return (
+    <div>
+    <Navbar/>
     <div className="container">
             <h2 align="center"> SignIn </h2>
             <div class="card"></div>
@@ -70,6 +73,7 @@ const readValue=()=>{
 
                 </div>
             </div>
+        </div>
         </div>
   )
 }
